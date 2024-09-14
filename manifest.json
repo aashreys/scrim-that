@@ -1,1 +1,9 @@
-{"api":"1.0.0","editorType":["figma"],"id":"scrim-that","name":"Scrim That","main":"build/main.js"}
+{
+  "api": "1.0.0",
+  "editorType": [
+    "figma"
+  ],
+  "id": "1062137197474406566",
+  "name": "Scrim That",
+  "main": "build/main.js"
+}

@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "@create-figma-plugin/utilities": "^1.8.2"
+    "@create-figma-plugin/utilities": "^3"
   },
   "devDependencies": {
-    "@create-figma-plugin/build": "^1.8.2",
-    "@create-figma-plugin/tsconfig": "^1.8.2",
-    "@figma/plugin-typings": "1.40.0",
-    "typescript": "^4"
+    "@create-figma-plugin/build": "^3",
+    "@create-figma-plugin/tsconfig": "^3",
+    "@figma/plugin-typings": "*",
+    "typescript": "^5"
   },
   "scripts": {
     "build": "build-figma-plugin --typecheck --minify",
@@ -16,8 +16,9 @@
     "editorType": [
       "figma"
     ],
-    "id": "scrim-that",
+    "id": "1062137197474406566",
     "name": "Scrim That",
     "main": "src/main.ts"
-  }
+  },
+  "documentAccess": "dynamic-page"
 }
