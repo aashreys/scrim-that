@@ -18,10 +18,12 @@
     ],
     "id": "1062137197474406566",
     "name": "Scrim That",
-    "main": "src/main.ts"
-  },
-  "documentAccess": "dynamic-page",
-  "networkAccess": {
-    "allowedDomains": ["none"]
+    "main": "src/main.ts",
+    "documentAccess": "dynamic-page",
+    "networkAccess": {
+      "allowedDomains": [
+        "none"
+      ]
+    }
   }
 }
