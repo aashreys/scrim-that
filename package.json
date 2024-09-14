@@ -20,5 +20,8 @@
     "name": "Scrim That",
     "main": "src/main.ts"
   },
-  "documentAccess": "dynamic-page"
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
 }
